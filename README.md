@@ -43,11 +43,7 @@ The goal is to understand whether modeling volatility dynamics significantly imp
 
 - The **static Normal distribution** underestimates Bitcoin’s volatility and fat tails.
 - The **Student-t distribution** improves the fit but fails to model volatility changes over time.
-- The **GARCH(1,1) with Student-t errors** fits significantly better than both static models:
-  - It captures **volatility clustering**
-  - Produces **i.i.d. standardized residuals**
-  - Passes the **Ljung–Box test**
-
+- The **GARCH(1,1) with Student-t errors** fits significantly better than both static models
 ---
 
 ## 🛠️ Dependencies
